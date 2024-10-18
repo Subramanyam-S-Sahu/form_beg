@@ -1,0 +1,115 @@
+*{
+    font-size: 18px;
+    
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    background-color: #e7eff6;
+    
+  }
+  
+  h1{
+    text-align: center;
+    color: rgb(253, 253, 253);
+    font-weight: bold;
+    font-size: 40px;
+    
+  }
+ 
+  h2{
+    font-size: 24px;
+  }
+ 
+  h3{
+    text-align: center;
+}
+  
+ 
+  .contact-form {
+    max-width: 50%;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(rgb(4, 136, 177),rgb(138, 221, 238));
+    margin-left: 500px;
+  }
+
+  .contact{
+    margin-left: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input[type="text"], .contact-form input[type="email"], .contact-form input[type="tel"] {
+    width: 800px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form textarea {
+    width: 800px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form input[type="checkbox"], .contact-form input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .contact-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 45%;
+  }
+  a{
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .contact-info {
+    width: 50%;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+  }
+
+  .social{
+    font-weight: 600;
+    margin-right: 30px;
+    padding: 25px;
+    justify-content: center;
+  }
+  .social li{
+    font-size: 28px;
+
+  }
